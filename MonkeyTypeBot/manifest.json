@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "WANNACRAWL God Mode",
+  "version": "1.0",
+  "description": "Premium automation and aesthetic suite for Monkeytype.",
+  "content_scripts": [
+    {
+      "matches": ["https://monkeytype.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["storage"]
+}
